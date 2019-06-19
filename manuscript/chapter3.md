@@ -89,10 +89,6 @@ You should have by now a big picture of the synchronous mechanic at the base of 
 
 Global Memory, Execution Context and Call Stack explain how synchronous JavaScript code runs in our browser. Yet we're missing something. What happens when there is some asynchronous function to run? By asynchronous function I mean every interaction with the outside world that could take some time to complete. Calling a REST API or invoking a timer are asynchronous because they can take seconds to run. With the elements we have so far in the engine there is no way to handle that kind of functions without blocking the Call Stack, and so the browser.
 
-Q> ## What is a REST API?
-Q>
-Q> REST APIs are services exposing data and information over the internet. Developers can get these data through the wire with an HTTP request. An example of REST API is [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/posts).
-
 Remember, the Call Stack can execute one function at a time and even one blocking function can literally freeze the browser. Luckily JavaScript engines are smart and with a bit of help from the browser can sort things out. When we run an asynchronous function like setTimeout the browser takes that function and runs it for us. Consider a timer like the following:
 
 ```js
