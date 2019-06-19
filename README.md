@@ -2,7 +2,7 @@
 
 Ever dreamed of a JavaScript book focused on the "hard part" while being beginner friendly? If you answered yes then you will love "The Little JavaScript Book".
 
-* [Read online (free)](manuscript/intro.md)
+* [Read online (free)](manuscript/README.md)
 * [Buy on Leanpub](https://leanpub.com/little-javascript/)
 * [Download a PDF (free)](https://www.valentinog.com/little-javascript)
 
@@ -15,6 +15,10 @@ As much as I love "You don't know JS" and "Eloquent JavaScript" I feel there is 
 The "Little JavaScript Book" is organized in three parts. The first part covers the inner working of JavaScript engines and the "hard parts" of the language: closures, the prototype system, this and new. Every chapter ends with a self-assessment test which is useful for making the concepts stick.
 
 The second part of the book has a lot of practical exercises with the DOM with a lot of pages covering code organization and best practices. The third and last part contains solutions for the exercises and future additions to the book.
+
+## What's the difference between free and paid copy of the book?
+
+[Paid](https://leanpub.com/little-javascript/) and [free PDF](https://www.valentinog.com/little-javascript) version of the book have quizzes at the end of every chapter and more tips and tricks. Also you can expect these versions to be updated more faster than the free version on Github.
 
 ## License & Copyright
 
