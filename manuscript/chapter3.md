@@ -157,7 +157,7 @@ That code is asynchronous, yet as you can see we pass the callback `runMeEvery` 
 
 I won't cover callback hell here, if you're curious there is a website, [callbackhell.com](http://callbackhell.com/) which explores the problem in more detail and offers some solutions. What we want to focus on now are ES6 Promises. ES6 Promises are an addition to the JavaScript language aiming to solve the dreaded callback hell. But what is a Promise anyway?
 
-A JavaScript Promise is the representation of an future event. A Promise can end with success: in jargon we say it's resolved (fulfilled). But if the Promise errors out we say it's in a rejected state. Promises have also a default state: every new Promise starts in pending state. It is possible to create your own Promise? Yes. For creating a new Promise you call the Promise constructor by passing a callback function into it. The callback function can take two parameters: resolve and reject. Let's create a new Promise which will resolve in 5 seconds (you can try the examples in a browser's console):
+A JavaScript Promise is the representation of a future event. A Promise can end with success: in jargon we say it's resolved (fulfilled). But if the Promise errors out we say it's in a rejected state. Promises have also a default state: every new Promise starts in pending state. It is possible to create your own Promise? Yes. For creating a new Promise you call the Promise constructor by passing a callback function into it. The callback function can take two parameters: resolve and reject. Let's create a new Promise which will resolve in 5 seconds (you can try the examples in a browser's console):
 
 ```js
 const myPromise = new Promise(function(resolve){
