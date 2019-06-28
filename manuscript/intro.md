@@ -36,7 +36,7 @@ or inline: `th.appendChild(text)`. You will find both ES5 and ES6 code in the bo
 
 ## What's the best way for following the examples?
 
-I suggest experimenting hands-on with the code and not just copy-pasting. You can use whatever editor you prefer for writing HTML and JavaScript. Then you can run the pages in a browser. You can also use an online tool like [Jsbin](https://jsbin.com) or [Codesandbox](https://codesandbox.io/).
+I suggest experimenting hands-on with the code and not just copy-pasting. You can use whatever editor you prefer for writing HTML and JavaScript. Then you can run the pages in a browser. You can also use an online tool like [JS Bin](https://jsbin.com) or [CodeSandbox](https://codesandbox.io/).
 
 ## Errata and other requests
 
